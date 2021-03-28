@@ -29,7 +29,7 @@ public class Appointment implements Serializable {
 	private Appointment_Place  appoitnment_place ;
 	@Enumerated(EnumType.STRING ) 
 	private Appoitnment_Type   appoitnment_type ;
-	public Appointment() {
+	public Appointment(int i, String string, Date date, Appointment_Place administrationOffice, Appoitnment_Type financial) {
 		super();
 		// TODO Auto-generated constructor stub
 	}
