@@ -16,6 +16,8 @@ public class Activity implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
+	//comment for the git
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="Activity_ID")
